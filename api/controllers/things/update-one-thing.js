@@ -13,7 +13,7 @@ module.exports = {
 
     id: {
       description: 'The id of the thing to update.',
-      type: 'number',
+      type: 'string',
       required: true
     },
 
