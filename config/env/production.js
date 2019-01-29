@@ -47,8 +47,8 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     default: {
-      adapter: 'sails-mysql',
-      // url: 'mysql://user:password@host:port/database',
+      adapter: 'sails-mongo',
+      url: 'mongodb://tribe:tribe@127.0.0.1:27017/ration?authSource=admin',
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
       //  ||   sensitive credentials like `url` using an environment variable.
@@ -221,7 +221,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     cookie: {
-      secure: true,
+      secure: false,
       maxAge: 24 * 60 * 60 * 1000,  // 24 hours
     },
 
@@ -251,7 +251,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     onlyAllowOrigins: [
-      'https://ration.io',
+      'https://air.tribehealthsolutions.com',
     ],
 
 
@@ -385,8 +385,8 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     adapter: require('skipper-s3'),
-    // key: 'fake-aws-keyagsd8agsdagsdhagsd',
-    // secret: 'fake-aws-secretasdg8asgd8gsd8asgd8',
+    key: 'AKIAILDZD7YWXJCUP4XA',
+    secret: 'uQTmAuZYnRVLAqQCFe870kjYeJV8Vtgg84CsPdjo',
     // bucket: 'uploaded_photos_of_things_prod',
     // region: 'us-east-1',
     //--------------------------------------------------------------------------
@@ -417,11 +417,11 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'https://ration.io',
-    internalEmailAddress: 'solosoyjs@gmail.com',
+    baseUrl: 'https://air.tribehealthsolutions.com',
+    internalEmailAddress: 'travis@tribehealthsolutions.com',
 
-    // mailgunDomain: 'mg.example.com',
-    // mailgunSecret: 'key-prod_fake_bd32301385130a0bafe030c',
+    mailgunDomain: 'mg.tribehealthsolutions.com',
+    mailgunSecret: 'key-b568290cd1e260afb631bd24adaa0b51',
     // stripeSecret: 'sk_prod__fake_Nfgh82401348jaDa3lkZ0d9Hm',
     //--------------------------------------------------------------------------
     // /\   OR, to avoid checking them in to version control, you might opt to
