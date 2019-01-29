@@ -387,8 +387,8 @@ module.exports = {
     adapter: require('skipper-s3'),
     key: 'AKIAILDZD7YWXJCUP4XA',
     secret: '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',
-    // bucket: 'uploaded_photos_of_things_prod',
-    // region: 'us-east-1',
+    bucket: 'tribehealth',
+    region: 'us-east-2',
     //--------------------------------------------------------------------------
     //  /\   To avoid checking them in to version control, you might opt to set
     //  ||   sensitive credentials like `s3Secret` using an environment variable.
