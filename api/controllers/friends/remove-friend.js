@@ -11,7 +11,7 @@ module.exports = {
 
     id: {
       description: 'The id of the friend to remove',
-      type: 'number',
+      type: 'string',
       required: true
     },
 

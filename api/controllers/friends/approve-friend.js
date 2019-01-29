@@ -11,8 +11,8 @@ module.exports = {
 
     id: {
       description: 'The ID of the user to approve as a friend.',
-      type: 'number',
-      example: 8381,
+      type: 'string',
+      example: '8381',
       required: true
     }
 
