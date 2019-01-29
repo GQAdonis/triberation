@@ -1,4 +1,4 @@
-# Ration
+# AIR
 
 
 ### Demo
@@ -8,7 +8,7 @@ Try the app out at https://ration.io/
 
 ### Take the course
 
-Take the complete tutorial course showing how to build Ration at https://courses.platzi.com/classes/sails-js/
+Take the complete tutorial course showing how to build AIR at https://courses.platzi.com/classes/sails-js/
 
 a [Sails v1](https://sailsjs.com) application
 

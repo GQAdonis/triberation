@@ -44,7 +44,7 @@ module.exports = {
         // Send a notification email.
         await sails.helpers.sendTemplateEmail.with({
           to: friend.emailAddress,
-          subject: `${this.req.me.fullName} wants to share stuff on Ration!`,
+          subject: `${this.req.me.fullName} wants to share stuff on AIR!`,
           template: 'email-new-friend-request',
           templateData: {
             potentialFriendFullName: this.req.me.fullName,
@@ -69,7 +69,7 @@ module.exports = {
         // Send a notification email.
         await sails.helpers.sendTemplateEmail.with({
           to: friend.emailAddress,
-          subject: `${this.req.me.fullName} wants to share stuff on Ration!`,
+          subject: `${this.req.me.fullName} wants to share stuff on AIR!`,
           template: 'email-new-user-invite',
           templateData: {
             potentialFriendFullName: this.req.me.fullName,

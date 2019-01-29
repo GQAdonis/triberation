@@ -52,7 +52,7 @@
         </tbody>
       </table>
     </div>
-    <div class="empty text-center" v-if="me.inboundFriendRequests.length === 0 && me.outboundFriendRequests.length === 0 && me.friends.length === 0"><p>You don't have any friends on Ration! In order to upload and borrow items, you'll need to <a href="/friends/new" @click="clickAddButton()">invite people</a> to join or add you as a friend.</p></div>
+    <div class="empty text-center" v-if="me.inboundFriendRequests.length === 0 && me.outboundFriendRequests.length === 0 && me.friends.length === 0"><p>You don't have any friends on AIR! In order to upload and borrow items, you'll need to <a href="/friends/new" @click="clickAddButton()">invite people</a> to join or add you as a friend.</p></div>
   </div>
   <% /* "Add friends" modal */ %>
   <modal v-if="virtualPageSlug === 'new'" v-cloak key="new" @close="closeAddFriendsModal()">
